@@ -1,3 +1,67 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://img.freepik.com/free-vector/beige-leafy-watercolor-background-vector_53876-136491.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    background-color: rgba(237, 198, 177, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    color:darkolivegreen;
+    font-size: 50px;
+}
+.navbar {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-menu li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.nav-menu li a:hover {
+    color: darkred;
+}
+main {
+    background-color:  rgba(237, 198, 177, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+h2 {
+    color: darkred;
+    font-size: 30px;
+}
+p {
+    font-size: 18px;
+    text-align: justify;
 img {
-    float: right;
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
 }
