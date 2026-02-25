@@ -71,3 +71,8 @@ img {
     width: 245px;
     text-align: left
 }
+.footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 0 50px
+}
