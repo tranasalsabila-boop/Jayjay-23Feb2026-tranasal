@@ -57,11 +57,17 @@ h2 {
 p {
     font-size: 18px;
     text-align: justify;
+}
 img {
     float: left;
-    width: 200px;
+    width: 120px;
     height: auto;
     margin-right: 20px;
     border-radius: 10px;
 }
+.tentang {
+    overflow: scroll;
+    height: 100px;
+    width: 245px;
+    text-align: left
 }
